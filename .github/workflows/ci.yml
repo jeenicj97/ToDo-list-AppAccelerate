@@ -45,7 +45,7 @@ jobs:
      uses: docker/build-push-action@v6
      with:
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }} /todo-app:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/todo-app:latest
       
     
       
