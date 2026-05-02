@@ -1,6 +1,6 @@
 name: My first github action
 
-on: [push]
+on: push
 
 jobs:
   build:
